@@ -12,6 +12,10 @@ public class CuentaBancaria {
 		return saldo;
 	}
 	
+	public int getNumeroCuenta() {
+		return numeroDeCuenta;
+	}
+	
 			
 	
 
