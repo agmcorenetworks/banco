@@ -17,11 +17,11 @@ public class CuentaBancaria {
 		return saldo;
 	}
 	
-	public int retirarDinero(int retirada) throws ExceptionSaldo {
+	public void retirarDinero(int retirada) throws ExceptionSaldo {
 		
 		if (retirada<saldo) {
 			int saldoRestante = saldo - retirada;
-			return saldoRestante;
+			System.out.println(saldoRestante);
 		}else {
 			throw new ExceptionSaldo("saldo menor al importe a retirar");
 		}
