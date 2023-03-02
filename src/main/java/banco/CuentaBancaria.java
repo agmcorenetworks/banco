@@ -14,6 +14,6 @@ public class CuentaBancaria {
 	//cambio numero1_AA
 	
 			
-	
+	int cantidad;
 
 }
